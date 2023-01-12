@@ -58,4 +58,127 @@ a {
 ul {
   list-style: none;
 }
-
+.right-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 2.5em;
+  width: 663px;
+  height: 1435px;
+}
+.left-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 2.5em;
+  width: 663px;
+  height: 1435px;
+}
+.box {
+  color: antiquewhite;
+}
+.all-elements {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 0.5em;
+  margin-top: 10em;
+  justify-content: center;
+}
+.skills {
+  text-align: center;
+  /* text-decoration: underline; */
+}
+.html-css {
+  border: 3px solid #dd4b25;
+  height: 10em;
+  width: 31em;
+  border-radius: 30px;
+  text-align: center;
+}
+.wordpress {
+  border: 3px solid #0072a1;
+  height: 10em;
+  width: 31em;
+  border-radius: 30px;
+  text-align: center;
+}
+.figma {
+  border: 3px solid #0ac97f;
+  height: 10em;
+  width: 31em;
+  border-radius: 30px;
+  text-align: center;
+}
+.php {
+  border: 3px solid #384e87;
+  height: 10em;
+  width: 31em;
+  border-radius: 30px;
+  text-align: center;
+}
+.js {
+  border: 3px solid #efd81d;
+  height: 10em;
+  width: 31em;
+  border-radius: 30px;
+  text-align: center;
+}
+.symfony {
+  border: 3px solid #ffffff;
+  height: 10em;
+  width: 31em;
+  border-radius: 30px;
+  text-align: center;
+}
+.mysql {
+  border: 3px solid #004a79;
+  height: 10em;
+  width: 31em;
+  border-radius: 30px;
+  text-align: center;
+}
+.angular {
+  border: 3px solid #bd002e;
+  height: 10em;
+  width: 31em;
+  border-radius: 30px;
+  text-align: center;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-php {
+  color:#384e87 ;
+}
+.fa-angular {
+  color: #bd002e;
+  font-size: 1.5em;
+}
+.fa-wordpress-simple {
+  color: #0072a1;
+  font-size: 1.5em;
+}
+.mysql-icon {
+  color: #004a79;
+}
+.figma-icon {
+  width: 1em;
+}
+.fa-symfony {
+  font-size: 1.5em;
+}
+.img-icon {
+  width: 1.5em;
+}
+.lang-icons {
+  font-size: 2em;
+}
+.box-content {
+  font-size: 2rem;
+}
