@@ -1,14 +1,61 @@
-body{
-    max-width: 100%;
-    margin: auto;
-    background-color: #222221;
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #1d1d1c;
 }
-.Firts-section{
-    background-image: url('images/background-header.svg');
-    display: flex;
+.header-section {
+  background: url("images/background-h.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
-.mypic{
-   max-width: 60vh;
-   margin: 4em;
+h1 {
+  margin-top: 0;
+  padding-top: 3em;
+  font-size: 3rem;
+
+  color: rgb(239, 233, 221);
+}
+h2 {
+  font-size: 2rem;
+  color: rgb(239, 233, 221);
+}
+p {
+  color: antiquewhite;
+  font-size: 1.3rem;
+  margin: 1em 3em;
+  text-align: justify;
+  line-height: 1.5em;
+}
+i {
+  color: antiquewhite;
+  font-size: 1.5em;
+}
+a {
+  text-decoration: none;
+  color: antiquewhite;
+  margin-left: 0.5em;
+  font-size: 1.25rem;
+}
+.social-media {
+  position: relative;
+  top: 5em;
+  left: 50em;
+}
+
+.image {
+  float: left;
+  margin: 0% 5% 5% 5%;
+  max-width: 60vh;
+  max-height: 60vh;
+}
+
+.mypic {
+  max-width: 60vh;
+  margin: 6em 1.5em;
+}
+ul {
+  list-style: none;
 }
 
